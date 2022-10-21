@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap');
+
+* {
+    margin: 2em 2em 2em 2em;
+    background-color: #F4F6F6;
+}
+
+
+.container--1 {
+    display: flex;
+}
+
+.container--1 h1 {
+    font-family: 'Bitter', serif;
+    font-size: 50px;
+}
+
+.cbox--1 {
+    flex: 1;
+    margin: 1em;
+    padding: 0.5em;
+    align-items: center;
+    justify-content: center;
+}
+
+.cbox--2 {
+    flex: 2;
+    margin: 1em;
+    padding: 0.5em;
+    justify-content: center;
+}
+
+.cbox--2 h2 {
+    font-family: 'Manrope', sans-serif;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.container--2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.container--2 h3 {
+    font-family: 'Manrope', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+}
+
+.pbox--1 {
+    flex: 1;
+}
+
+.pbox--2 {
+    flex: 1;    
+}
+
+.pbox--3 {
+    flex: 1;
+}
+
+.container--3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.container--3 h3 {
+    font-family: 'Manrope', sans-serif;
+    font-size: 35px;
+    text-align: center;
+    margin: 0;
+}
+
+.container--3 p {
+    font-family: 'Manrope', sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+.capbox--1 {
+    flex: 1;
+}
+
+.capbox--2 {
+    flex: 1;
+}
+
+.capbox--3 {
+    flex: 1;
+}
